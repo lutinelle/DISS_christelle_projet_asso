@@ -1,0 +1,23 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+
+.legal-txt{
+  font-size: 11px;
+  text-align: center;
+  display:flex;
+  justify-content: space-around;
+}
+.banner-txt, .additional
+{
+  font-size: 1.25rem;
+}
+
+
+h6 {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
