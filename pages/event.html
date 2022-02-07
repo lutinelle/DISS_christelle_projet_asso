@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Au fil des aiguilles</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+      </style>
         
     <!-- Bootstrap CSS -->
     <link href="../scss/bootstrap.css" rel="stylesheet">
@@ -47,7 +50,7 @@
               <a class="nav-link" href="#">Actualités</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  " href="#">A propos</a>
+              <a class="nav-link  " href="APropos.html">A propos</a>
             </li>
           </ul>
         </div>
@@ -95,49 +98,66 @@
                
 
         <section class="row mt-5">
-          <article class="col-sm-6 col-md-3 mb-3">
-            <div class="card h-100">
-              <img class="card-img-top " src="../images/quilting.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h3 class="card-title">Prochaine rencontre</h3>
-                <p class="card-text">Le theme de la prochaine rencontre sera de saison puisqu'il s'agira d'un theme
-                   couverture et plaid</p>
-                   <a href="rencontre_date1.html" class="btn btn-primary">En savoir plus</a>
-              </div>            
-            </div>
+          <article class="col-sm-6 col-lg-3 mb-3">
+              <img class="img-fluid" src="../images/quilting.jpg" alt="Responsive image">
+                <div class="eventdetail row border  text-center text-primary">
+                  <div class="col-5 border eventdate align-middle ">
+                    <div >21 FEV 2021</div>
+                  </div>
+                 <div class="col-7 border eventdate">
+                    <div >RENCONTRE COUVERTURE
+                    <a href="rencontre_date1.html" class="btn btn-primary btn-sm">Details</a>
+                    </div>
+                  </div>
+               </div>           
           </article>
-          <article class="col-sm-6 col-md-3 mb-3">
-            <div  class= "card h-100" >
-              <img class="card-img-top" src="../images/salon-Creativa-2022-metz.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h3 class="card-title">Prochaine sortie</h3>
-                <p class="card-text">Une sortie a l'incontournable salon creativa Metz aura lieu le Vendredi 25 fevrirer
-                   <a href="#" class="btn btn-primary">En savoir plus</a>
-              </div>
-              
-            </div>
+
+          <article class="col-sm-6 col-lg-3 mb-3">
+            <!--recadrer image-->
+            <img class="img-fluid" src="../images/salon-Creativa-2022-metz.jpg" alt="Responsive image">
+              <div class="eventdetail row border  text-center text-primary">
+                <div class="col-5 border eventdate align-middle ">
+                  <div >25 FEV 2021</div>
+                </div>
+               <div class="col-7 border eventdate">
+                  <div >SORTIE CREATIVA
+                  <a href="#" class="btn btn-primary btn-sm">Details</a>
+                  </div>
+                </div>
+             </div>           
+        </article>
+          
           </article>
-          <article class="col-sm-6 col-md-3 mb-3">
-            <div class="card h-100">
-              <img class="card-img-top " src="../images/acorn-crochet-.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h3 class="card-title">Rencontre du XX/XX</h3>
-                <p class="card-text">theme foret</p>
-                   <a href="#" class="btn btn-primary">En savoir plus</a>
-              </div>            
-            </div>
+          <article class="col-sm-6 col-lg-3 mb-3">
+              <img class="img-fluid" src="../images/acorn-crochet-.jpg" alt="Responsive image">
+                <div class="eventdetail row border  text-center text-primary">
+                  <div class="col-5 border eventdate align-middle ">
+                    <div >28 FEV 2021</div>
+                  </div>
+                 <div class="col-7 border eventdate">
+                    <div >RENCONTRE FORET
+                    <a href="#" class="btn btn-primary btn-sm">Details</a>
+                    </div>
+                  </div>
+               </div>           
           </article>
-          <article class="col-sm-6 col-md-3 mb-3">
-            <div class="card h-100">
-              <!--modifier taille image-->
-              <img class="card-img-top " src="../images/dinette.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h3 class="card-title">Rencontre du XX/XX</h3>
-                <p class="card-text">theme dinette</p>
-                   <a href="#" class="btn btn-primary">En savoir plus</a>
-              </div>            
-            </div>
-          </article>
+        </article>
+        
+        <article class="col-sm-6 col-lg-3 mb-3">
+          <!--recadrer image-->
+            <img class="img-fluid" src="../images/dinette.jpg" alt="Responsive image">
+              <div class="eventdetail row border  text-center text-primary">
+                <div class="col-5 border eventdate align-middle ">
+                  <div >07 MAR 2021</div>
+                </div>
+               <div class="col-7 border eventdate">
+                  <div >RENCONTRE DINETTE
+                  <a href="#" class="btn btn-primary btn-sm">Details</a>
+                  </div>
+                </div>
+             </div>           
+        </article>
+          
         </section>
     </main>
     
@@ -161,7 +181,7 @@
     </footer>
 
   <!-- Bootstrap JavaScript -->
-  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
   
   </body>
 </html>
