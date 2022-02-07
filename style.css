@@ -3,7 +3,6 @@ body {
   margin: 0;
 }
 
-
 .legal-txt{
   font-size: 11px;
   text-align: center;
@@ -15,9 +14,12 @@ body {
   font-size: 1.25rem;
 }
 
-
 h6 {
   font-size: 13px;
   font-weight: bold;
   text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 1px;
 }
