@@ -10,6 +10,9 @@ h1{
   font-size: calc(3rem + 1.5vw);
   text-align: center;
 }
+.contact{
+  font-size: 1.25rem;
+}
 
 .legal-txt{
   font-size: 11px;
