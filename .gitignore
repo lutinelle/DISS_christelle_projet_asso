@@ -1,0 +1,11 @@
+bootstrap/
+scss/*.scss
+!scss/*variables.scss
+scss/*.css
+!scss/bootstrap.css
+scss/*.css.map
+scss/forms
+scss/helpers
+scss/mixins
+scss/utilities
+scss/vendor
