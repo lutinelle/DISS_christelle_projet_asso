@@ -10,6 +10,10 @@ h1{
   font-size: calc(3rem + 1.5vw);
   text-align: center;
 }
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: calc(1.25rem + 1.5vw);
+}
 .contact{
   font-size: 1.25rem;
 }
