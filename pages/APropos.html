@@ -17,7 +17,36 @@
   <body class="container-fluid">
     <div class="header row">
 
-    <nav class="col text-end ">Contact</nav>
+    <!--modale -->
+    <nav class="col text-end text-primary contact " data-bs-toggle="modal" data-bs-target="#contactModal" type="button">Contact</nav>
+    
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactModal">Formulaire contact non fonctionnel</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form method="post" action="">
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Destinataire:</label>
+                <input type="text" readonly  class="form-control" id="recipient-name" value="association_fictive@yahoo.com">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" >Envoyer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fin modale -->
     <header class="row">
       <div class="col-2 logo">
         <img src="../images/streamline-icon-cat-yarn@48x48.png">
