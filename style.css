@@ -16,6 +16,12 @@ h2{
 }
 .contact{
   font-size: 1.25rem;
+
+}
+.contact:hover{
+  font-size: 1.5rem;
+  cursor: pointer;
+  
 }
 
 .legal-txt{
@@ -38,10 +44,13 @@ ul {
   list-style: none;
   padding: 1px;
 }
+iframe{
+  width:100%;
+  height:100%;
+}
 
 .event{
   width: 300px;
-
 }
 
 .eventdetail{
@@ -51,9 +60,6 @@ ul {
   width: 220px;
   height: 100px;
   background-color: white;
-
-
-
 }
 .eventdate, .eventdesc{
 display: flex;
@@ -67,4 +73,7 @@ align-items: center;
 
 .facebook{
 background: linear-gradient(90deg, hsla(180, 82%, 45%, 1) 0%, hsla(330,67%, 52%, 1) 100%);
+}
+.facebook img{
+  height: 35px;
 }

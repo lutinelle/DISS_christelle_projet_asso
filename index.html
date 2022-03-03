@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Au fil des aiguilles</title>
     <meta name="description"  content="La couture, le tricot, le crochet ou encore la broderie vous attirent ? Venez découvrir notre association d'amateurs des arts du fil basée à Haguenau">
-    <meta http-equiv="expires" content="43200"/> 
+    <meta http-equiv="refresh" content="43200"/> 
   
     <!-- Bootstrap CSS -->
     <link href="scss/bootstrap.css" rel="stylesheet">
@@ -17,17 +17,17 @@
   <body class="container-fluid">
     <div class="header row">
 <!--modale -->
-    <nav class="col text-end text-primary contact " data-bs-toggle="modal" data-bs-target="#contactModal" type="button">Contact</nav>
+    <nav class="col text-end text-primary contact " data-bs-toggle="modal" data-bs-target="#contactModal" >Contact</nav>
     
     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="contactModal">Formulaire contact non fonctionnel</h5>
+            <h5 class="modal-title" id="contactModalLabel">Formulaire contact non fonctionnel</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form method="post" action="">
+            <form method="post">
               <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Destinataire:</label>
                 <input type="text" readonly  class="form-control" id="recipient-name" value="association_fictive@yahoo.com">
@@ -49,7 +49,7 @@
 
     <header class="row">
       <div class="col-2 logo ">
-        <img src="images/streamline-icon-cat-yarn@48x48.png" >
+        <img src="images/streamline-icon-cat-yarn@48x48.png" alt="logo pelote" >
       </div>
       <div class="col-10">
         <h1>Association au fil de l'aiguille</h1>
@@ -89,7 +89,7 @@
         <div class="banner row g-0">
           <div class="col-sm-6 col-md-4 col-12 ">
             <div class="card text-white">
-              <img src="images/crochet.jpg" class="card-img" alt="...">
+              <img src="images/crochet.jpg" class="card-img" alt="image ouvrage crochet">
               <div class="card-img-overlay">
                 <p class="card-title banner-txt">Crochet</p>
               </div>
@@ -97,7 +97,7 @@
           </div>
           <div class="col-sm-6 col-md-4 d-sm-inline-block d-none">
             <div class="card text-white">
-              <img src="images/sewing.jpg" class="card-img" alt="...">
+              <img src="images/sewing.jpg" class="card-img" alt="image ouvrage couture">
               <div class="card-img-overlay">
                 <p class="card-title banner-txt">Couture</p>
               </div>
@@ -105,7 +105,7 @@
           </div>
           <div class="col-md-4 d-md-inline-block d-none">
             <div class="card text-white">
-              <img src="images/knit.jpg" class="card-img" alt="...">
+              <img src="images/knit.jpg" class="card-img" alt="image ouvrage tricot">
               <div class="card-img-overlay">
                 <p class="card-title banner-txt">Tricot</p>
               </div>
@@ -135,13 +135,14 @@
                 67500 Haguenau<br>
                 Horraire: tous les lundi 19h30
                 </p>
-                <iframe width="446" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=haguenau%20gare&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:446px;}</style><a href="https://www.embedgooglemap.net"></a><style>iframe {width:100%;height:100%;}</style>
+                <iframe  id="gmap_canvas" src="https://maps.google.com/maps?q=haguenau%20gare&t=&z=15&ie=UTF8&iwloc=&output=embed" ></iframe>
+               <br><a href="https://www.embedgooglemap.net"></a>
               </div>
             </div>
           </aside>
           <article class="col-sm-6 col-md-3 mb-3">
             <div class="card h-100">
-              <img class="card-img-top " src="images/quilting.jpg" alt="Card image cap">
+              <img class="card-img-top " src="images/quilting.jpg" alt="image couverture patchwork">
               <div class="card-body">
                 <h3 class="card-title">Prochaine rencontre</h3>
                 <p class="card-text">Le theme de la prochaine rencontre sera de saison puisqu'il s'agira d'un theme
@@ -152,7 +153,7 @@
           </article>
           <article class="col-sm-6 col-md-3 mb-3">
             <div  class= "card h-100" >
-              <img class="card-img-top" src="images/salon-Creativa-2022-metz.jpg" alt="Card image cap">
+              <img class="card-img-top" src="images/salon-Creativa-2022-metz.jpg" alt="image salon creativa">
               <div class="card-body">
                 <h3 class="card-title">Prochaine sortie</h3>
                 <p class="card-text">Une sortie a l'incontournable salon creativa Metz aura lieu le Vendredi 25 fevrirer
@@ -167,7 +168,7 @@
     <footer >
       <div class="row border m-2 facebook">
         <div class="col  text-center  pt-3 additional">
-          <p>Pour plus d'inspiration et d'emulsion, intégrez notre groupe <img src="images/facebook-logo.png" height="35px"></p>
+          <p>Pour plus d'inspiration et d'emulsion, intégrez notre groupe <img src="images/facebook-logo.png" alt="logo facebook"></p>
         </div>
       </div>
       <div class="row border m-2">
@@ -182,15 +183,8 @@
       </div>
     </footer>
 
-  <!-- Bootstrap JavaScript -->
-  <script src="bootstrap/js/bootstrap.bundle.min.js">
-    var myModal = document.getElementById('myModal')
-    var myInput = document.getElementById('myInput')
-
-  myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-})
-  </script>
-  
+    <!-- Bootstrap JavaScript -->
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+ 
   </body>
 </html>

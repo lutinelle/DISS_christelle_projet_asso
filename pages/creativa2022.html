@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Au fil des aiguilles</title>
     <meta name="description"  content="Le XX/XX/XXXX les membres de notre association d’amateur des arts du fil de Haguenau se réunissent : trouvez toutes les informations pour vous préparer">
-    <meta http-equiv="expires" content="43200"/>
+    <meta http-equiv="refresh" content="43200"/> 
     
 
         
@@ -20,17 +20,17 @@
     <div class="header row">
 
       <!--modale -->
-      <nav class="col text-end text-primary contact " data-bs-toggle="modal" data-bs-target="#contactModal" type="button">Contact</nav>
+      <nav class="col text-end text-primary contact " data-bs-toggle="modal" data-bs-target="#contactModal" >Contact</nav>
       
       <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="contactModal">Formulaire contact non fonctionnel</h5>
+              <h5 class="modal-title" id="contactModalLabel">Formulaire contact non fonctionnel</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <form method="post" action="">
+              <form method="post">
                 <div class="mb-3">
                   <label for="recipient-name" class="col-form-label">Destinataire:</label>
                   <input type="text" readonly  class="form-control" id="recipient-name" value="association_fictive@yahoo.com">
@@ -52,7 +52,7 @@
       
       <header class="row">
         <div class="col-2 logo">
-          <img src="../images/streamline-icon-cat-yarn@48x48.png">
+          <img src="../images/streamline-icon-cat-yarn@48x48.png" alt="logo pelote" >
         </div>
         <div class="col-10">
           <h1>Association au fil de l'aiguille</h1>
@@ -88,12 +88,15 @@
       </div>
     </nav>
     <nav aria-label="breadcrumb">
-
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-</svg></a></li>
+        <li class="breadcrumb-item">
+          <a href="../index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+              <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+            </svg>
+          </a>
+        </li>
         <li class="breadcrumb-item "><a href="event.html">Evenement</a></li>
         <li class="breadcrumb-item active" aria-current="page">prochaine sortie</li>
       </ol>
@@ -103,7 +106,7 @@
         <div class="banner row g-0">
           <div class="col-sm-6 col-md-4 col-12 ">
             <div class="card text-white">
-              <img src="../images/crochet.jpg" class="card-img" alt="...">
+              <img src="../images/crochet.jpg" class="card-img" alt="image ouvrage crochet">
               <div class="card-img-overlay">
                 <p class="card-title banner-txt">Crochet</p>
               </div>
@@ -111,7 +114,7 @@
           </div>
           <div class="col-sm-6 col-md-4 d-sm-inline-block d-none">
             <div class="card text-white">
-              <img src="../images/sewing.jpg" class="card-img" alt="...">
+              <img src="../images/sewing.jpg" class="card-img" alt="image ouvrage couture">
               <div class="card-img-overlay">
                 <p class="card-title banner-txt">Couture</p>
               </div>
@@ -119,7 +122,7 @@
           </div>
           <div class="col-md-4 d-md-inline-block d-none">
             <div class="card text-white">
-              <img src="../images/knit.jpg" class="card-img" alt="...">
+              <img src="../images/knit.jpg" class="card-img" alt="image ouvrage tricot">
               <div class="card-img-overlay">
                 <p class="card-title banner-txt">Tricot</p>
               </div>
@@ -133,7 +136,7 @@
             <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="../images/salon-Creativa-2022-metz.jpg" class="img-fluid rounded-start" alt="...">
+                  <img src="../images/salon-Creativa-2022-metz.jpg" class="img-fluid rounded-start" alt="image salon creativa 2022">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -144,18 +147,14 @@
                 </div>
               </div>
             </div>
-
-          </div>
-         
-        </article>       
-
-        
+          </div> 
+        </article>         
     </main>
     
     <footer >
       <div class="row border m-2 facebook">
         <div class="col  text-center  pt-3 additional">
-          <p>Pour plus d'inspiration et d'emulsion, intégrez notre groupe <img src="../images/facebook-logo.png" height="35px"></p>
+          <p>Pour plus d'inspiration et d'emulsion, intégrez notre groupe <img src="../images/facebook-logo.png" alt="logo facebook"></p>
         </div>
       </div>
       <div class="row border m-2">
@@ -170,8 +169,8 @@
       </div>
     </footer>
 
-  <!-- Bootstrap JavaScript -->
-  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
   
   </body>
 </html>
