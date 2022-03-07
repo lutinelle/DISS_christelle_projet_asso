@@ -42,7 +42,7 @@ iframe{
   font-size: 11px;
   text-align: center;
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .legal-title {
   font-size: 20px;
